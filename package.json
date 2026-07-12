@@ -1,0 +1,19 @@
+{
+  "name": "branch-it-dashboard-app-v8-47-modal-contrast-upgrade",
+  "version": "8.47.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "vite build",
+    "dev": "vite --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "firebase": "^12.14.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest",
+    "xlsx": "^0.18.5"
+  }
+}

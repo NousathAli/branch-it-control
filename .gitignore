@@ -1,0 +1,38 @@
+# Dependencies and generated build
+node_modules/
+dist/
+.firebase/
+
+# Local Firebase selection and environment
+.firebaserc
+.env
+.env.*
+!.env.example
+
+# Local/legacy databases and backups
+data/
+*.bak
+*.backup
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+
+# Credential and password files
+*Credential*.xlsx
+*Credentials*.xlsx
+*Password*.xlsx
+*CCTV_Use_Login*.xlsx
+*HikConnect*.xlsx
+*Hikconnect*.xlsx
+*NVR_Login*.xlsx
+
+# OS/editor files
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
